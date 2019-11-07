@@ -2,8 +2,8 @@
 //  AdLimeMediation_TikTok.h
 //  AdLimeMediation_TikTok
 //
-//  Created by Mathew on 2019/7/3.
-//  Copyright © 2019年 AdLime. All rights reserved.
+//  Created by AdLimeSdk on 2019/7/3.
+//  Copyright © 2019年 AdLimeSdk. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
