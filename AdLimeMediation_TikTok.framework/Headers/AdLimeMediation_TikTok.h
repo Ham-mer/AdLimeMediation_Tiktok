@@ -16,5 +16,8 @@ FOUNDATION_EXPORT const unsigned char AdLimeMediation_TikTokVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AdLimeMediation_TikTok/PublicHeader.h>
 
+#import <AdLimeMediation_TikTok/AdLimeTikTokAdMode.h>
+
+#import <AdLimeMediation_TikTok/AdLimeTikTokExpressDrawFeedListConfig.h>
 #import <AdLimeMediation_TikTok/AdLimeTikTokExpressFeedListConfig.h>
 #import <AdLimeMediation_TikTok/AdLimeTikTokSplashConfig.h>

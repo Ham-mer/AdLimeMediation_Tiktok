@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 #import <AdLimeSdk/AdLimeSdk.h>
 
-@interface AdLimeTikTokSplashConfig : AdLimeNetworkConfig
+@interface AdLimeTikTokSplashConfig : AdLimeNetworkConfig 
 
--(void)setFrame:(CGRect)frame;
+@property (nonatomic) CGRect frame;
 
--(CGRect)getFrame;
 +(CGRect)getDefaultFrame;
 
 @end
