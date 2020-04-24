@@ -14,10 +14,10 @@ typedef NS_ENUM(NSUInteger, AdLimeTikTokBannerMode) {
 };
 
 typedef NS_ENUM(NSUInteger, AdLimeTiktokNativeMode) {
-    ADLIME_TIKTOK_NATIVE_BANNER = 0, // 自渲染 Banner（穿山甲已弃用）
-    // ADLIME_TIKTOK_NATIVE_EXPRESS = 1, // 个性化模版原生（无此类型）
-    ADLIME_TIKTOK_NATIVE_INTERSTITIAL = 2, // 自渲染插屏（穿山甲已弃用）
-    ADLIME_TIKTOK_NATIVE_FEEDLIST = 3 // 自渲染信息流（支持海外使用 Native Api 来访问信息流）
+    ADLIME_TIKTOK_NATIVE_CUSTOM_BANNER = 0, // 自渲染 Banner（穿山甲已弃用）
+    ADLIME_TIKTOK_NATIVE_CUSTOM_INTERSTITIAL = 2, // 自渲染插屏（穿山甲已弃用）
+    ADLIME_TIKTOK_NATIVE_CUSTOM_FEEDLIST = 3, // 自渲染信息流（支持海外使用 Native Api 来访问信息流）
+    ADLIME_TIKTOK_NATIVE_EXPRESS_FEEDLIST = 4 // 个性化模版信息流（支持海外使用 Native Api 来访问信息流）
 };
 
 typedef NS_ENUM(NSUInteger, AdLimeTiktokInterstitialMode) {

@@ -11,7 +11,7 @@
 
 @interface AdLimeTikTokSplashConfig : AdLimeNetworkConfig 
 
-@property (nonatomic) CGRect frame;
+@property (nonatomic) CGRect frame DEPRECATED_MSG_ATTRIBUTE("Use [AdLimeSplashAd setExpressAdSize:]");
 
 +(CGRect)getDefaultFrame;
 

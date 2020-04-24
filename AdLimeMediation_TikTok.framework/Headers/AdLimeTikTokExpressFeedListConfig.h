@@ -12,7 +12,7 @@
 @interface AdLimeTikTokExpressFeedListConfig : AdLimeNetworkConfig
 
 // when height is zero, acture height will match width
--(void)setExpressViewAcceptedSize:(CGFloat)width height:(CGFloat)height;
+-(void)setExpressViewAcceptedSize:(CGFloat)width height:(CGFloat)height DEPRECATED_MSG_ATTRIBUTE("Use [AdLimeFeedList setExpressAdSize:]");
 
 -(CGFloat)getExpressViewAcceptedWidth;
 -(CGFloat)getExpressViewAcceptedHeight;
