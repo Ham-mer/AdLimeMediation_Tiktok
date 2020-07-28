@@ -9,10 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <AdLimeSdk/AdLimeSdk.h>
 
-@interface AdLimeTikTokSplashConfig : AdLimeNetworkConfig 
-
-@property (nonatomic) CGRect frame DEPRECATED_MSG_ATTRIBUTE("Use [AdLimeSplashAd setExpressAdSize:]");
-
-+(CGRect)getDefaultFrame;
+@interface AdLimeTikTokSplashConfig : AdLimeNetworkConfig
 
 @end

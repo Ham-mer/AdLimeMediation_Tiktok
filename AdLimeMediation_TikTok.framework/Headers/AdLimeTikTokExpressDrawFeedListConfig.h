@@ -11,12 +11,4 @@
 
 @interface AdLimeTikTokExpressDrawFeedListConfig : AdLimeNetworkConfig
 
--(void)setExpressViewAcceptedSize:(CGFloat)width height:(CGFloat)height DEPRECATED_MSG_ATTRIBUTE("Use [AdLimeFeedList setExpressAdSize:]");
-
--(CGFloat)getExpressViewAcceptedWidth;
--(CGFloat)getExpressViewAcceptedHeight;
-
-+(CGFloat)getDefaultExpressViewAcceptedWidth;
-+(CGFloat)getDefaultExpressViewAcceptedHeight;
-
 @end
