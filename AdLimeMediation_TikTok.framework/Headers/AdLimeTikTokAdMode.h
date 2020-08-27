@@ -27,6 +27,12 @@ typedef NS_ENUM(NSUInteger, AdLimeTiktokInterstitialMode) {
     ADLIME_TIKTOK_INTERSTITIAL_EXPRESS_FULLSCREENVIDEO = 3 // 个性化模版全屏视频
 };
 
+typedef NS_ENUM(NSUInteger, AdLimeTiktokExpressInterstitialSize) {
+    ADLIME_TIKTOK_EXPRESS_INTERSTITIAL_SIZE_2_3 = 0, // 2:3
+    ADLIME_TIKTOK_EXPRESS_INTERSTITIAL_SIZE_3_2 = 1, // 3:2
+    ADLIME_TIKTOK_EXPRESS_INTERSTITIAL_SIZE_1_1 = 2  // 1:1
+};
+
 typedef NS_ENUM(NSUInteger, AdLimeTiktokRewardedVideoMode) {
     ADLIME_TIKTOK_REWARDEDVIDEO_NORMAL = 0, // 激励视频
     ADLIME_TIKTOK_REWARDEDVIDEO_EXPRESS = 1 // 个性化模版激励视频
@@ -47,6 +53,6 @@ typedef NS_ENUM(NSUInteger, AdLimeTiktokFeedListMode) {
 };
 
 typedef NS_ENUM(NSUInteger, AdLimeTiktokOrienration) {
-    ORIENTATION_VERTICAL = 1,
-    ORIENTATION_HORIZONTAL = 2
+    ADLIME_TIKTOK_ORIENTATION_VERTICAL = 1,  // 竖屏
+    ADLIME_TIKTOK_ORIENTATION_HORIZONTAL = 2 // 横屏
 };
